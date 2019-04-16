@@ -8,11 +8,14 @@
 <script>
     let str = prompt('String?');
     let regexp = /^[A-Z]/;
-    if (regexp.test(str)){
-        alert('Ký tự đầu tiên là UPPer');
-    } else {
-        alert('Non-upper');
+    function test() {
+        if (regexp.test(str)) {
+            alert('Ký tự đầu tiên là UPPer');
+        } else {
+            alert('Non-upper');
+        }
     }
+    test();
 </script>
 </body>
 </html>
